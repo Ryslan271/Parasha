@@ -1,0 +1,17 @@
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\AppMain.exe
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\AppMain.deps.json
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\AppMain.runtimeconfig.json
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\AppMain.runtimeconfig.dev.json
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\AppMain.dll
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\ref\AppMain.dll
+C:\Users\Ruslan\source\repos\AppMain\AppMain\bin\Debug\net5.0-windows\AppMain.pdb
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.Form1.resources
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.csproj.GenerateResource.cache
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.AssemblyInfoInputs.cache
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.AssemblyInfo.cs
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.csproj.CoreCompileInputs.cache
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.dll
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\ref\AppMain.dll
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.pdb
+C:\Users\Ruslan\source\repos\AppMain\AppMain\obj\Debug\net5.0-windows\AppMain.genruntimeconfig.cache
