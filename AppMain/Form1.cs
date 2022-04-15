@@ -14,11 +14,9 @@ namespace AppMain
         private int r = 0;
         private int g = 0;
         private int b = 0;
-        private int[] colors;
         private int count = 0;
-        private bool gameStart = false;
         private int step = 0;
-        private int countRet = 5; //количество повторений (кнопки сколько раз загараются)
+        private int countRet = 6; //количество повторений (кнопки сколько раз загараются)
 
         public Form1()
         {
@@ -27,20 +25,25 @@ namespace AppMain
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if(step == countRet)
-            {
-                label1.Text = "Повезло-повезло";
-            }
+            button1.Enabled = false;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button5.Enabled = false;
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            gameStart = false;
             timer1.Enabled = true;
             count = 0;
             run = 0;
             step = 0;
             array.Clear();
+            button1.Enabled = false;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            button4.Enabled = false;
+            button5.Enabled = false;
         }
 
         private void play()
@@ -86,6 +89,11 @@ namespace AppMain
                 button3.BackColor = Color.Black;
                 button4.BackColor = Color.Black;
                 button5.BackColor = Color.Black;
+                button1.Enabled = true;
+                button2.Enabled = true;
+                button3.Enabled = true;
+                button4.Enabled = true;
+                button5.Enabled = true;
             }
             count++;
         }
@@ -103,8 +111,17 @@ namespace AppMain
         {
             if (1 != (int)array[step])
             {
-                gameStart = false;
                 label1.Text = "ты проиграл ахаххаха ботяра";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button1.BackColor = Color.Black;
+                button2.BackColor = Color.Black;
+                button3.BackColor = Color.Black;
+                button4.BackColor = Color.Black;
+                button5.BackColor = Color.Black;
             }
             else
             {
@@ -118,6 +135,11 @@ namespace AppMain
             if (step >= countRet)
             {
                 label1.Text = "Неожидал";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
             }
             
         }
@@ -126,8 +148,17 @@ namespace AppMain
         {
             if (2 != (int)array[step])
             {
-                gameStart = false;
                 label1.Text = "ты проиграл ахаххаха ботяра";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button1.BackColor = Color.Black;
+                button2.BackColor = Color.Black;
+                button3.BackColor = Color.Black;
+                button4.BackColor = Color.Black;
+                button5.BackColor = Color.Black;
             }
             else
             {
@@ -141,6 +172,11 @@ namespace AppMain
             if (step >= countRet)
             {
                 label1.Text = "Неожидал";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
             }
             
         }
@@ -148,8 +184,17 @@ namespace AppMain
         {
             if (3 != (int)array[step])
             {
-                gameStart = false;
                 label1.Text = "ты проиграл ахаххаха ботяра";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button1.BackColor = Color.Black;
+                button2.BackColor = Color.Black;
+                button3.BackColor = Color.Black;
+                button4.BackColor = Color.Black;
+                button5.BackColor = Color.Black;
             }
             else
             {
@@ -163,6 +208,11 @@ namespace AppMain
             if (step >= countRet)
             {
                 label1.Text = "Неожидал";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
             }
         }
 
@@ -170,8 +220,17 @@ namespace AppMain
         {
             if (4 != (int)array[step])
             {
-                gameStart = false;
                 label1.Text = "ты проиграл ахаххаха ботяра";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button1.BackColor = Color.Black;
+                button2.BackColor = Color.Black;
+                button3.BackColor = Color.Black;
+                button4.BackColor = Color.Black;
+                button5.BackColor = Color.Black;
             }
             else
             {
@@ -185,6 +244,11 @@ namespace AppMain
             if (step >= countRet)
             {
                 label1.Text = "Неожидал";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
             }
             
         }
@@ -192,9 +256,18 @@ namespace AppMain
         private void button5_Click(object sender, EventArgs e)
         {
             if (5 != (int)array[step])
-            {
-                gameStart = false;
+            { 
                 label1.Text = "ты проиграл ахаххаха ботяра";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
+                button1.BackColor = Color.Black;
+                button2.BackColor = Color.Black;
+                button3.BackColor = Color.Black;
+                button4.BackColor = Color.Black;
+                button5.BackColor = Color.Black;
             }
             else
             {
@@ -208,6 +281,11 @@ namespace AppMain
             if (step >= countRet)
             {
                 label1.Text = "Неожидал";
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                button4.Enabled = false;
+                button5.Enabled = false;
             }
             
         }
